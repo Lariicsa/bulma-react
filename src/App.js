@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
 
 class App extends Component {
@@ -8,59 +7,59 @@ class App extends Component {
 
     return (
      <>
-     <nav class="navbar" role="navigation" aria-label="main navigation">
-  <div class="navbar-brand">
-    <a class="navbar-item" href="https://bulma.io">
-      <img src="fatov.png" height="28" />
+     <nav className="navbar" role="navigation" aria-label="main navigation">
+  <div className="navbar-brand">
+    <a className="navbar-item" href="https://jenil.github.io/bulmaswatch/">
+      <img src="fatov.png" height="28" alt="fatov"/>
     </a>
 
-    <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+    <a href="/" role="button" className="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
       <span aria-hidden="true"></span>
       <span aria-hidden="true"></span>
       <span aria-hidden="true"></span>
     </a>
   </div>
 
-  <div id="navbarBasicExample" class="navbar-menu">
-    <div class="navbar-start">
-      <a class="navbar-item">
+  <div id="navbarBasicExample" className="navbar-menu">
+    <div className="navbar-start">
+      <a href="/" className="navbar-item">
         Home
       </a>
 
-      <a class="navbar-item">
+      <a href="/" className="navbar-item">
         Documentation
       </a>
 
-      <div class="navbar-item has-dropdown is-hoverable">
-        <a class="navbar-link">
+      <div className="navbar-item has-dropdown is-hoverable">
+        <a href="/" className="navbar-link">
           More
         </a>
 
-        <div class="navbar-dropdown">
-          <a class="navbar-item">
+        <div className="navbar-dropdown">
+          <a href="/" className="navbar-item">
             About
           </a>
-          <a class="navbar-item">
+          <a href="/" className="navbar-item">
             Jobs
           </a>
-          <a class="navbar-item">
+          <a href="/" className="navbar-item">
             Contact
           </a>
-          <hr class="navbar-divider" />
-          <a class="navbar-item">
+          <hr className="navbar-divider" />
+          <a href="/" className="navbar-item">
             Report an issue
           </a>
         </div>
       </div>
     </div>
 
-    <div class="navbar-end">
-      <div class="navbar-item">
-        <div class="buttons">
-          <a class="button is-primary">
+    <div className="navbar-end">
+      <div className="navbar-item">
+        <div className="buttons">
+          <a href="/" className="button is-primary">
             <strong>Sign up</strong>
           </a>
-          <a class="button is-light">
+          <a href="/" className="button is-light">
             Log in
           </a>
         </div>
