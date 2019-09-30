@@ -27,7 +27,7 @@ Go to index.scss and rename **minty** for example with journal
 @import "node_modules/bulmaswatch/journal/bulmaswatch";
 `
 
-[![Lariicsa.com](https://github.com/Lariicsa/bulma-react/blob/master/public/desktop.png" site preview")](https://github.com/Lariicsa/bulma-react/blob/master/public/desktop.png)
+[![Lariicsa.com](https://github.com/Lariicsa/bulma-react/blob/master/public/desktop.png "site preview")](https://github.com/Lariicsa/bulma-react/blob/master/public/desktop.png)
 
 [![Lariicsa.com](https://github.com/Lariicsa/bulma-react/blob/master/public/mobile.png "site preview")](https://github.com/Lariicsa/bulma-react/blob/master/public/mobile.png)
 
